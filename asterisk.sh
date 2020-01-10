@@ -253,7 +253,7 @@ echo -e "Download e instalação do Asterisk, aguarde..."
 	make basic-pbx &>> $LOG
 	# instala um conjunto de documentção para o Asterisk
 	# habilitar esse recurso, o processo de compilação demora bastante
-	#make progdocs &>> $LOG
+	make progdocs &>> $LOG
 	# instala um conjunto de scripts de inicialização do Asterisk (systemctl)
 	make config &>> $LOG
 	# instala um conjunto de scripts de configuração dos Logs do Asterisk (rsyslog)
